@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ubuntu/Documents/Software/openCVTest0/hello.cpp" "/home/ubuntu/Documents/Software/openCVTest0/build/CMakeFiles/opencvtest0.dir/hello.cpp.o"
+  "/home/ubuntu/Documents/Software/JetCam/hello.cpp" "/home/ubuntu/Documents/Software/JetCam/build/CMakeFiles/JetCam.dir/hello.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -1,11 +1,11 @@
 cmake_minimum_required (VERSION 2.8)
 
-project (opencvtest0)
+project (JetCam)
 
 find_package(OpenCV REQUIRED)
 include_directories(${OpenCV_INCLUDE_DIRS})
 
-add_executable(opencvtest0 hello.cpp)
+add_executable(JetCam hello.cpp)
 
-target_link_libraries(opencvtest0 ${OpenCV_LIBS})
+target_link_libraries(JetCam ${OpenCV_LIBS})
 

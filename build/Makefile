@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/Documents/Software/openCVTest0
+CMAKE_SOURCE_DIR = /home/ubuntu/Documents/Software/JetCam
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/Documents/Software/openCVTest0/build
+CMAKE_BINARY_DIR = /home/ubuntu/Documents/Software/JetCam/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -69,9 +69,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Documents/Software/openCVTest0/build/CMakeFiles /home/ubuntu/Documents/Software/openCVTest0/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Documents/Software/JetCam/build/CMakeFiles /home/ubuntu/Documents/Software/JetCam/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Documents/Software/openCVTest0/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Documents/Software/JetCam/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -99,24 +99,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named opencvtest0
+# Target rules for targets named JetCam
 
 # Build rule for target.
-opencvtest0: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 opencvtest0
-.PHONY : opencvtest0
+JetCam: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 JetCam
+.PHONY : JetCam
 
 # fast build rule for target.
-opencvtest0/fast:
-	$(MAKE) -f CMakeFiles/opencvtest0.dir/build.make CMakeFiles/opencvtest0.dir/build
-.PHONY : opencvtest0/fast
+JetCam/fast:
+	$(MAKE) -f CMakeFiles/JetCam.dir/build.make CMakeFiles/JetCam.dir/build
+.PHONY : JetCam/fast
 
 hello.o: hello.cpp.o
 .PHONY : hello.o
 
 # target to build an object file
 hello.cpp.o:
-	$(MAKE) -f CMakeFiles/opencvtest0.dir/build.make CMakeFiles/opencvtest0.dir/hello.cpp.o
+	$(MAKE) -f CMakeFiles/JetCam.dir/build.make CMakeFiles/JetCam.dir/hello.cpp.o
 .PHONY : hello.cpp.o
 
 hello.i: hello.cpp.i
@@ -124,7 +124,7 @@ hello.i: hello.cpp.i
 
 # target to preprocess a source file
 hello.cpp.i:
-	$(MAKE) -f CMakeFiles/opencvtest0.dir/build.make CMakeFiles/opencvtest0.dir/hello.cpp.i
+	$(MAKE) -f CMakeFiles/JetCam.dir/build.make CMakeFiles/JetCam.dir/hello.cpp.i
 .PHONY : hello.cpp.i
 
 hello.s: hello.cpp.s
@@ -132,7 +132,7 @@ hello.s: hello.cpp.s
 
 # target to generate assembly for a file
 hello.cpp.s:
-	$(MAKE) -f CMakeFiles/opencvtest0.dir/build.make CMakeFiles/opencvtest0.dir/hello.cpp.s
+	$(MAKE) -f CMakeFiles/JetCam.dir/build.make CMakeFiles/JetCam.dir/hello.cpp.s
 .PHONY : hello.cpp.s
 
 # Help Target
@@ -141,8 +141,8 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... JetCam"
 	@echo "... edit_cache"
-	@echo "... opencvtest0"
 	@echo "... rebuild_cache"
 	@echo "... hello.o"
 	@echo "... hello.i"

@@ -47,44 +47,44 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/Documents/Software/openCVTest0
+CMAKE_SOURCE_DIR = /home/ubuntu/Documents/Software/JetCam
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/Documents/Software/openCVTest0/build
+CMAKE_BINARY_DIR = /home/ubuntu/Documents/Software/JetCam/build
 
 #=============================================================================
-# Target rules for target CMakeFiles/opencvtest0.dir
+# Target rules for target CMakeFiles/JetCam.dir
 
 # All Build rule for target.
-CMakeFiles/opencvtest0.dir/all:
-	$(MAKE) -f CMakeFiles/opencvtest0.dir/build.make CMakeFiles/opencvtest0.dir/depend
-	$(MAKE) -f CMakeFiles/opencvtest0.dir/build.make CMakeFiles/opencvtest0.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/Documents/Software/openCVTest0/build/CMakeFiles  1
-	@echo "Built target opencvtest0"
-.PHONY : CMakeFiles/opencvtest0.dir/all
+CMakeFiles/JetCam.dir/all:
+	$(MAKE) -f CMakeFiles/JetCam.dir/build.make CMakeFiles/JetCam.dir/depend
+	$(MAKE) -f CMakeFiles/JetCam.dir/build.make CMakeFiles/JetCam.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/Documents/Software/JetCam/build/CMakeFiles  1
+	@echo "Built target JetCam"
+.PHONY : CMakeFiles/JetCam.dir/all
 
 # Include target in all.
-all: CMakeFiles/opencvtest0.dir/all
+all: CMakeFiles/JetCam.dir/all
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/opencvtest0.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Documents/Software/openCVTest0/build/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/opencvtest0.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Documents/Software/openCVTest0/build/CMakeFiles 0
-.PHONY : CMakeFiles/opencvtest0.dir/rule
+CMakeFiles/JetCam.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Documents/Software/JetCam/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/JetCam.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Documents/Software/JetCam/build/CMakeFiles 0
+.PHONY : CMakeFiles/JetCam.dir/rule
 
 # Convenience name for target.
-opencvtest0: CMakeFiles/opencvtest0.dir/rule
-.PHONY : opencvtest0
+JetCam: CMakeFiles/JetCam.dir/rule
+.PHONY : JetCam
 
 # clean rule for target.
-CMakeFiles/opencvtest0.dir/clean:
-	$(MAKE) -f CMakeFiles/opencvtest0.dir/build.make CMakeFiles/opencvtest0.dir/clean
-.PHONY : CMakeFiles/opencvtest0.dir/clean
+CMakeFiles/JetCam.dir/clean:
+	$(MAKE) -f CMakeFiles/JetCam.dir/build.make CMakeFiles/JetCam.dir/clean
+.PHONY : CMakeFiles/JetCam.dir/clean
 
 # clean rule for target.
-clean: CMakeFiles/opencvtest0.dir/clean
+clean: CMakeFiles/JetCam.dir/clean
 .PHONY : clean
 
 #=============================================================================

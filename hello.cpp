@@ -46,7 +46,6 @@ void Test1()
     
 }
 
-
 void Test2()
 {
     
@@ -92,8 +91,9 @@ void Test2()
 		}
 		else
 		{
-		    cv::Scalar color = cv::Scalar( rng.uniform(0, 255), rng.uniform(0, 255), rng.uniform(0, 255) );
-		    cv::drawContours( cv::cvarrToMat(img), contours, i, color, 2, 8, hierarchy, 0, cv::Point() );
+		    //cv::Scalar color = cv::Scalar( rng.uniform(0, 1), rng.uniform(0, 1), rng.uniform(254, 255) );
+		    cv::Scalar color = cv::Scalar( 0, 0, 255);
+		    cv::drawContours( cv::cvarrToMat(img), contours, i, color, 2, 8, hierarchy, 0, cv::Point(0, 0));
 		}
 	    }
 

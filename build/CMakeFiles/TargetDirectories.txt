@@ -1,1 +1,1 @@
-/home/ubuntu/Documents/Software/openCVTest0/build/CMakeFiles/opencvtest0.dir
+/home/ubuntu/Documents/Software/JetCam/build/CMakeFiles/JetCam.dir
