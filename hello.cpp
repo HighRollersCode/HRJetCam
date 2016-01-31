@@ -5,48 +5,14 @@
 #include <time.h>
 #include <stdio.h>
 using namespace cv;
-void Test1();
-void Test2();
+void Track();
 
 
 int main()
 {
-    Test2();
+    Track();
 }
-
-void Test1()
-{
-    cv::Mat img;
-    cv::Mat dst;
-    cv::Sobel(img,dst,CV_32F,1,1);
-    cv::VideoCapture input(0);
-    /*
-    cv::VideoWriter output(
-	"cars_sobel.avi",
-	CV_FOURCC('X','V','I','D'),
-	30,
-	cv::Size(input.get(CV_CAP_PROP_FRAME_WIDTH),
-	input.get(CV_CAP_PROP_FRAME_HEIGHT)));
-    */
-
-    for(;;)
-    {
-	if(!input.read(img))
-	    break;
-
-	cv::Sobel(img, dst, CV_8U, 1, 1);
-	//output.write(dst);
-
-	cv::imshow("img",dst);
-	char c = cv::waitKey(10);
-
-	if( c == ' ')
-	    break;
-    }
-    
-}
-
-void Test2()
+void Track()
 {
     
     IplImage *img;
@@ -63,6 +29,7 @@ void Test2()
     CvCapture *cv_cap = cvCaptureFromCAM(0);
     cvSetCaptureProperty(cv_cap, CV_CAP_PROP_FRAME_WIDTH,320);
     cvSetCaptureProperty(cv_cap, CV_CAP_PROP_FRAME_HEIGHT,240);
+    cvSetCaptureProperty(cv_cap, CV_CAP_PROP_BRIGHTNESS,0);
     cvNamedWindow("Video",0);
     
     char buffer[10];
